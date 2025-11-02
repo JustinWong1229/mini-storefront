@@ -1,5 +1,6 @@
 'use client';
 import { useEffect, useState } from 'react';
+import PriceFilter from './PriceFilter';
 
 export default function SalesDashboard() {
     const [sales, setSales] = useState([])
