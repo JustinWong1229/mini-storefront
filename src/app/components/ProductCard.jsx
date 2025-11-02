@@ -1,7 +1,8 @@
 'use client';
 
 export default function ProductCard({ product, addCart}) {
-    const outOfStock = stock =0
+    const {name, price, category, stock} = product
+    const outOfStock = stock ===0
 
     return (
         <div>
