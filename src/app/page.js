@@ -1,10 +1,9 @@
-import SalesDashboard from "./components/Catalog"
+import SalesDashboard from "./components/Catalog";
 
 export default function Home() {
-  return (
+  return(
     <main>
-   <SalesDashboard />
+      <SalesDashboard />
     </main>
   )
-
 };

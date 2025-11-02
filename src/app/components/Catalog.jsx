@@ -3,6 +3,7 @@ import { useEffect, useState } from 'react';
 import PriceFilter from './PriceFilter';
 import ProductList from './ProductList';
 import CategoryFilter from './CategoryFilter';
+import StatusMessage from './StatusMessage';
 
 export default function SalesDashboard() {
     const [sales, setSales] = useState([]);
