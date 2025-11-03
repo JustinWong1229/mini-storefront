@@ -1,11 +1,12 @@
 'use clients';
-export default function CategoryFilter({value, options, onChange}) {
+export default function CategoryFilter({value, onChange}) {
     return (
         <label>
             Category:{""}
-            <select value={value} onChange={(e) => onChange(e.target.value)}>
+            <input type="text" value={value} onChange={e => onChange(e.target.value)} />
+                
 
-            </select>
+         
         </label>
     )
 }
